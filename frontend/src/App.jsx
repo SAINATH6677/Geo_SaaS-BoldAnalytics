@@ -10,6 +10,7 @@ import Users from './pages/Users'
 import Analytics from './pages/Analytics'
 import Logs from './pages/Logs'
 import NotFound from './pages/NotFound'
+import GeoSearch from "./pages/GeoSearch"
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         path="/logs"
         element={<Logs />}
       />
+      <Route path="/geo-search" element={<GeoSearch />} />
 
       <Route
         path="*"

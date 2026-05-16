@@ -20,6 +20,7 @@ function Sidebar() {
         <Link to="/users">Users</Link>
         <Link to="/logs">Logs</Link>
         <Link to="/analytics">Analytics</Link>
+        <Link to="/geo-search">Geo Search</Link>
 
         <a
           href="http://localhost:5000/docs"
