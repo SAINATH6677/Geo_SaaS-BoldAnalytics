@@ -21,7 +21,6 @@ app.use(helmet());
 app.use(requestMeta);
 
 app.use(quotaMiddleware);
-
 app.use(apiLogger);
 
 app.use(responseFormatter);

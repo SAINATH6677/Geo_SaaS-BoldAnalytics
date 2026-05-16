@@ -10,7 +10,12 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000/v1'
+        url: 'https://geo-saas-api.onrender.com',
+        description: 'Production server'
+      },
+      {
+        url: 'http://localhost:5000/v1',
+        description: 'Local development server'
       }
     ],
     components: {
